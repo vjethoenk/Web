@@ -153,3 +153,259 @@
   width: 100%;
   object-fit: cover;
 }
+
+.content-demo {
+  margin-top: 10px;
+}
+.content-demo-item {
+  margin: 10px 60px 10px 60px;
+  background: rgb(255, 255, 255);
+}
+.content-demo-item h2 {
+  font-size: 30px;
+  font-family: Futura, sans-serif;
+  color: rgb(51, 51, 51);
+  text-align: left;
+}
+.content-demo-item-box {
+  background-color: rgb(255, 255, 255);
+  height: 450px;
+  margin-top: 20px;
+  display: flex;
+}
+.content-demo-item-box-product {
+  width: 262px;
+  height: 430px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 21px;
+}
+.content-demo-item-box-product img {
+  width: 262px;
+  height: 280px;
+}
+.content-demo-item-box-product-info {
+  width: 262px;
+  height: 141px;
+  background-color: rgb(255, 255, 255);
+}
+.content-demo-item-box-product-info-img {
+  width: 262px;
+  height: 30px;
+  margin-top: 5px;
+  position: relative;
+}
+.content-demo-item-box-product-info-img img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid red;
+  position: absolute;
+  left: 45%;
+}
+.content-demo-item-box-product-info-title {
+  width: 262px;
+  height: 55px;
+  margin-top: 10px;
+}
+.content-demo-item-box-product-info-title h3 {
+  text-align: center;
+}
+.content-demo-item-box-product-info-title h3 a {
+  font-size: 16px;
+  font-family: Futura, sans-serif;
+  text-decoration: none;
+  color: rgb(101, 98, 98);
+  line-height: 22px;
+}
+.content-demo-item-box-product-info-price {
+  width: 262px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.content-demo-item-box-product-info-price h3 {
+  text-align: center;
+}
+.content-demo-item-box-product-info-price h3 a {
+  font-size: 16px;
+  font-family: Futura, sans-serif;
+  text-decoration: none;
+  color: rgb(241, 49, 49);
+  line-height: 22px;
+}
+.content-hr {
+  border-top: 1px solid rgb(227, 222, 222);
+  margin: 0 60px 10px 60px;
+}
+.content-feedback {
+  height: 710px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 43px;
+}
+.content-feedback-title h2 {
+  text-align: center;
+  font-family: Futura, sans-serif;
+  color: rgb(19, 18, 18);
+  line-height: 22px;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 500;
+  font-weight: normal;
+}
+.content-feedback-img {
+  height: 630px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 21px;
+  margin: 20px 50px 20px 68px;
+}
+.content-feedback-img img {
+  width: 262px;
+  height: 280px;
+  object-fit: cover;
+  margin: 7px;
+}
+.footer {
+  height: 350px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title {
+  flex: 1;
+  margin: 50px 5px 25px 170px;
+}
+.footer-title-name {
+  margin-top: 17px;
+  float: left;
+}
+.footer-title-name b {
+  font-size: 14px;
+  font-family: Futura, sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+  color: rgb(153, 153, 153);
+  float: left;
+}
+.footer-title-name p {
+  font-size: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(153, 153, 153);
+  width: 317px;
+  padding: 1px;
+  line-height: 15px;
+  float: left;
+}
+.footer-title-name img {
+  width: 175px;
+  height: 66px;
+  margin-top: 20px;
+  float: left;
+}
+.footer-box {
+  flex: 1;
+  margin: 50px 5px 25px 15px;
+  position: relative;
+}
+.footer-box h4 {
+  text-align: center;
+  font-size: 18px;
+  font-family: Futura, sans-serif;
+  font-weight: bold;
+  line-height: 21px;
+  color: rgb(153, 153, 153);
+}
+.footer-box input {
+  width: 380px;
+  height: 40px;
+  margin-top: 20px;
+  color: black;
+  padding: 10px;
+  font-size: 14px;
+  font-family: Futura, sans-serif;
+}
+.footer-box button {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 4px;
+  top: 45px;
+  background-color: rgb(81, 79, 78);
+  border: none;
+  border-radius: 2px;
+}
+.footer-box button img {
+  margin-top: 4px;
+  width: 20px;
+  height: 20px;
+}
+.footer-box p {
+  text-align: center;
+  font-size: 16px;
+  font-family: Futura, sans-serif;
+  line-height: 19px;
+  font-weight: 200;
+  color: rgb(153, 153, 153);
+  margin-top: 23px;
+}
+.footer-box-logo {
+  margin-left: 40px;
+}
+.footer-box-logo a img {
+  width: 39px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 13px 8px 0 10px;
+}
+.footer-about {
+  flex: 1;
+  margin: 50px 10px 20px 50px;
+}
+.footer-about h4 {
+  text-align: left;
+  font-size: 18px;
+  font-family: Futura, sans-serif;
+  font-weight: bold;
+  line-height: 21px;
+  color: rgb(153, 153, 153);
+}
+.footer-about ul {
+  margin-top: 25px;
+}
+.footer-about ul li {
+  list-style: none;
+  margin-bottom: 18px;
+}
+.footer-about ul li a {
+  text-decoration: none;
+  text-align: left;
+  font-size: 15px;
+  font-family: Futura, sans-serif;
+  color: rgb(153, 153, 153);
+  line-height: 20px;
+}
+.footer-policy {
+  flex: 1;
+  margin: 50px 130px 20px 20px;
+}
+.footer-policy h4 {
+  text-align: left;
+  font-size: 18px;
+  font-family: Futura, sans-serif;
+  font-weight: bold;
+  line-height: 21px;
+  color: rgb(153, 153, 153);
+}
+.footer-policy ul {
+  margin-top: 25px;
+}
+.footer-policy ul li {
+  list-style: none;
+  margin-bottom: 18px;
+}
+.footer-policy ul li a {
+  text-decoration: none;
+  text-align: left;
+  font-size: 15px;
+  font-family: Futura, sans-serif;
+  color: rgb(153, 153, 153);
+  line-height: 20px;
+}
