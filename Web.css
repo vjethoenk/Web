@@ -158,7 +158,7 @@
   margin-top: 10px;
 }
 .content-demo-item {
-  margin: 10px 60px 10px 60px;
+  padding: 10px 60px 10px 60px;
   background: rgb(255, 255, 255);
 }
 .content-demo-item h2 {
@@ -237,7 +237,7 @@
   margin: 0 60px 10px 60px;
 }
 .content-feedback {
-  height: 710px;
+  height: 750px;
   background-color: rgb(255, 255, 255);
   margin-top: 43px;
 }
@@ -254,14 +254,13 @@
 .content-feedback-img {
   height: 630px;
   background-color: rgb(255, 255, 255);
-  margin-right: 21px;
-  margin: 20px 50px 20px 68px;
+  margin: 20px 140px 20px 160px;
 }
 .content-feedback-img img {
-  width: 262px;
-  height: 280px;
+  width: 278px;
+  height: 290px;
   object-fit: cover;
-  margin: 7px;
+  margin: 10px;
 }
 .footer {
   height: 350px;
