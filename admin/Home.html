@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="Home.css " />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="header-logo">
+          <a href="#"
+            ><img
+              src="//bizweb.dktcdn.net/100/415/697/themes/902041/assets/logo.png?1710226595388"
+          /></a>
+        </div>
+        <div class="header-hight"></div>
+      </div>
+      <hr />
+      <div class="content">
+        <div class="left">
+          <div class="left-menu">
+            <ul>
+              <li><a href="">Sản phẩm</a></li>
+              <li><a href="">Đơn hàng</a></li>
+              <li><a href="">Danh mục</a></li>
+              <li><a href="">Nhà cung cấp</a></li>
+              <li><a href="">Khách hàng</a></li>
+              <li><a href="">Nhân viên</a></li>
+              <li><a href="">Thống kê</a></li>
+              <li><a href="">Tài khoản</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="content-hight"></div>
+        <div class="right">
+          <div class="right-procduct">
+            <div class="right-procduct-search">
+              <input type="text" placeholder="Tìm kiếm sản phẩm" />
+            </div>
+            <div class="right-procduct-tool">
+              <div class="right-procduct-tool-picture">
+                <label for="">Ảnh</label> <br />
+                <input type="file" id="img" name="img" accept=".jgp, .png" />
+              </div>
+              <div class="right-procduct-tool-name">
+                <label for="">Tên sản phẩm</label> <br />
+                <input type="text" name="" id="" />
+              </div>
+              <div class="right-procduct-tool-class">
+                <label for="">Phân loại</label> <br />
+                <select name="" id="">
+                  <option value="Áo">Áo</option>
+                  <option value="Quần">Quần</option>
+                  <option value="Áo khoác">Áo khoác</option>
+                  <option value="Phụ kiện">Phụ kiện</option>
+                </select>
+              </div>
+              <div class="right-procduct-tool-Sl">
+                <label for="">Số lượng</label> <br />
+                <input type="text" />
+              </div>
+              <div class="right-procduct-tool-price">
+                <label for="">Giá tiền</label> <br />
+                <input type="text" />
+              </div>
+              <button>Thêm</button>
+            </div>
+            <div class="right-procduct-dgv">
+              <table class="styled-table">
+                <thead>
+                  <tr>
+                    <th>Ảnh</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Phân loại</th>
+                    <th>Số lượng</th>
+                    <th>Giá tiền</th>
+                    <th>Chức năng</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src="image1.jpg" alt="Product Image" width="50" />
+                    </td>
+                    <td>Sản phẩm 1</td>
+                    <td>Loại A</td>
+                    <td>10</td>
+                    <td>100.000đ</td>
+                    <td><a href="#">Sửa</a> <a href="#">Xóa</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
