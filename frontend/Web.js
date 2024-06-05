@@ -14,11 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
   let cout = parseInt(iptSL.value);
 
   btnPlus.addEventListener("click", () => {
+    event.preventDefault();
     cout++;
     iptSL.value = cout;
   });
 
   btnMinus.addEventListener("click", () => {
+    event.preventDefault();
     cout--;
     iptSL.value = cout;
   });

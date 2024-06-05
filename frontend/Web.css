@@ -755,15 +755,14 @@ body {
 .content-cart-demo table {
   margin-left: 60px;
 }
-.content-cart-demo table thead tr th {
+/* .content-cart-demo table thead tr th {
   font-size: 16px;
   font-family: Futura, sans-serif;
   height: 30px;
   border-bottom: 2px solid black;
   margin-left: -10px;
-}
+} */
 .content-cart-demo table {
-  border: 2px solid black;
   margin-top: 20px;
 }
 .content-cart-demo table tbody img {
@@ -775,8 +774,8 @@ body {
   padding: 23px;
 }
 .content-cart-demo-number-btnMinus {
-  width: 30px;
-  height: 35px;
+  width: 25px;
+  height: 30px;
   margin-left: 5px;
   border-radius: 5px 0 0 5px;
   background-color: white;
@@ -785,8 +784,8 @@ body {
   font-size: 16px;
 }
 .content-cart-demo-number-btnPush {
-  width: 30px;
-  height: 35px;
+  width: 25px;
+  height: 30px;
   border-radius: 0 5px 5px 0;
   background-color: white;
   border: 0.5px solid rgb(69, 67, 67);
@@ -794,8 +793,8 @@ body {
   font-size: 16px;
 }
 .content-cart-demo-number-SL {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   text-align: center;
   font-size: 16px;
   border: 0.5px solid rgb(69, 67, 67);
@@ -803,4 +802,44 @@ body {
 .content-cart-demo-into > span {
   text-align: center;
   padding: 23px;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table thead tr {
+  background-color: #747776;
+  color: #ffffff;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #babfbe;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.styled-table td img {
+  max-width: 100%;
+  height: auto;
+}
+
+.styled-table a {
+  color: #101110;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.styled-table a:hover {
+  text-decoration: underline;
 }
