@@ -1,124 +1,148 @@
-* {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background-color: #f4f4f4;
 }
-body {
+
+.main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .header {
   display: flex;
-  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
 }
-.header-logo {
-  width: 280px;
-  height: 50px;
-  margin: 0px 0px 10px 0px;
-  padding: 10px;
-  background: rgb(205, 202, 202);
-}
+
 .header-logo img {
-  margin: 0px 10px 10px 25px;
+  max-width: 185px;
 }
+
 .header-hight {
-  height: 50px;
-  border-left: 3px solid rgb(18, 17, 17);
+  flex-grow: 1;
 }
-hr {
-  width: 100%;
-  height: 2px;
-  border-bottom: 1.7px solid rgb(18, 17, 17);
-}
-.content-hight {
-  width: 3px;
-  height: 100vh;
-  border-left: 3px solid rgb(18, 17, 17);
-}
+
 .content {
   display: flex;
+  margin-top: 20px;
 }
+
 .left {
-  width: 280px;
-  height: 100vh;
-  background: rgb(205, 202, 202);
+  flex: 1;
+  max-width: 200px;
 }
+
 .left-menu {
-  padding: 0px 0px 0px 0px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
 }
+
+.left-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .left-menu ul li {
-  width: 280px;
-  padding: 15px 20px 15px 40px;
-  text-align: left;
-  list-style: none;
+  margin-bottom: 10px;
 }
+
 .left-menu ul li a {
-  text-align: center;
   text-decoration: none;
-  color: rgb(15, 13, 7);
-  font-size: 16px;
-  font-family: Futura, sans-serif;
-  margin: 0px 14px 10px 0;
-  padding: 0 10px 10px 10px;
+  color: #333;
   font-weight: bold;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
-.left-menu ul li:hover {
-  background: rgb(178, 148, 148);
-  width: 280px;
+
+.left-menu ul li a:hover {
+  background-color: #ddd;
 }
-.right-procduct {
-  display: grid;
-  grid-template-rows: 1 2 3;
+
+.right {
+  flex: 3;
+  padding-left: 20px;
 }
-.right-procduct-search {
-  width: 100%;
-  height: 40px;
-}
-.right-procduct-search input {
-  padding: 5px;
-  margin: 10px 0 10px 60px;
-  width: 300px;
-  height: 30px;
-  border-radius: 6px;
-  border: 0.5px solid rgb(192, 190, 188);
-}
-.right-procduct-tool {
+.right-search {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 20px;
-  margin-left: 60px;
+  margin-bottom: 20px;
+  position: relative;
 }
-.right-procduct-tool button {
-  width: 60px;
+
+.right-search input {
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 0.93;
+}
+
+.right-search > button {
+  position: absolute;
+  right: 65px;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-search button img {
   height: 20px;
-  margin-top: 16px;
 }
-.right-procduct-tool label {
-  font-size: 14px;
-  font-family: Futura, sans-serif;
+
+.right-top {
+  position: absolute;
+  right: 3px;
 }
-.right-procduct-tool > div {
-  width: calc(30% - 10px);
-  height: auto;
+
+.right-top a img {
+  height: 35px;
+  width: 35px;
 }
+
 .right-procduct-dgv {
-  margin-top: 20px;
-  margin-left: 60px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.right-procduct-dgv table {
+
+.styled-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 18px;
-  text-align: left;
-}
-.styled-table th,
-.styled-table td {
-  padding: 12px 15px;
+  margin: 20px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
 }
 
 .styled-table thead tr {
-  background-color: #747776;
+  background-image: linear-gradient(to right, #009879, #33a48e);
+  background-color: #009879;
   color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 13px;
+  text-align: center;
 }
 
 .styled-table tbody tr {
@@ -130,24 +154,119 @@ hr {
 }
 
 .styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #babfbe;
+  border-bottom: 2px solid #009879;
 }
 
-.styled-table tbody tr:hover {
-  background-color: #f1f1f1;
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
 }
 
-.styled-table td img {
-  max-width: 100%;
-  height: auto;
+.styled-table tbody img {
+  max-width: 50px;
+  max-height: 50px;
 }
 
-.styled-table a {
-  color: #101110;
-  text-decoration: none;
-  margin-right: 10px;
+.styled-table tbody td a img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
 
-.styled-table a:hover {
-  text-decoration: underline;
+.right-procduct {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  height: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-procduct-tool {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.right-procduct-tool label {
+  font-weight: bold;
+}
+
+.right-procduct-tool input,
+.right-procduct-tool select {
+  width: 95%;
+  padding: 10px;
+  margin-top: 7px;
+  border: 0.5px solid #ddd;
+  border-radius: 5px;
+}
+.right-procduct-tool select {
+  width: 100%;
+}
+input:focus {
+  border: 0.5px solid rgb(184, 179, 179);
+  outline: none;
+}
+.btnThem {
+  grid-column: span 2;
+  padding: 13px 20px;
+  background-color: #20ab40;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.btnThem:hover {
+  background-color: #11c438;
+}
+.right-box {
+  width: 95%;
+  height: 95%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+}
+.right h1 {
+  text-align: center;
+  color: #333;
+}
+.right-box-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.right-box-form label {
+  margin-top: 10px;
+  color: #333;
+}
+
+.right-box-form input,
+select {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.right-box-form button {
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.right-box-form button:hover {
+  background-color: #218838;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Webb/frontend/Web.css" />
+    <link rel="stylesheet" href="Web.css" />
     <title>Teelab</title>
   </head>
 
@@ -100,67 +100,25 @@
           </div>
         </div>
         <div class="banner"></div>
-        <div class="content-cart">
-          <span>Giỏ hàng của bạn</span>
-          <div class="content-cart-demo">
-            <table class="styled-table">
-              <thead>
-                <tr>
-                  <th>Ảnh</th>
-                  <th>Sản phẩm</th>
-                  <th>Đơn giá</th>
-                  <th>Số lượng</th>
-                  <th>Thành tiền</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <img
-                      src="//bizweb.dktcdn.net/thumb/large/100/415/697/products/1-43f68bee-ffe3-4d5f-bcbe-725ff90cd875.jpg?v=1701332113873"
-                    />
-                  </td>
-                  <td>
-                    <div class="content-cart-demo-title">
-                      <h3>
-                        Áo sơ mi Teelab Local Brand Unisex " Áo Suy Sad " TS252
-                      </h3>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="content-cart-demo-price">
-                      <span>185.000đ</span>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="content-cart-demo-number">
-                      <button class="content-cart-demo-number-btnMinus">
-                        -</button
-                      ><input
-                        type="text"
-                        value="1"
-                        class="content-cart-demo-number-SL"
-                      /><button class="content-cart-demo-number-btnPush">
-                        +
-                      </button>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="content-cart-demo-into">
-                      <span>185.000đ</span>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="content-pay">
-            <div class="content-pay-money">
-              <label for="">Tổng tiền:</label>
-              <span>180.00đ</span>
+        <div class="connectd">
+          <form action="" method="post">
+            <div class="connect-dangky">
+              <h3>Đăng ký tài khoản</h3>
+              <label for="">Họ và tên:</label>
+              <input type="text" id="TenKH" name="TenKH" />
+              <label for="">Email:</label>
+              <input type="text" id="Email" name="Email" />
+              <label for="">Mật khẩu:</label>
+              <input type="text" id="MatKhau" name="MatKhau" />
+              <label for="">Nhập lại mật khẩu:</label>
+              <input type="text" id="ConfirmMatKhau" />
+              <label for="">Số điện thoại:</label>
+              <input type="text" id="Sdt" name="Sdt" />
+              <label for="">Địa chỉ:</label>
+              <input type="text" id="DiaChi" name="DiaChi" />
+              <button id="btnDK" name="btnDK">Đăng ký</button>
             </div>
-            <button class="btnThanhToan">Thanh toán</button>
-          </div>
+          </form>
         </div>
 
         <div class="footer">
@@ -193,13 +151,13 @@
             <button>
               <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAlxJREFUSEvtlk+ITmEUxn+PvxPJRiFJKGrC1tQI
-                GylEZKFILLDA5M/EkNAkC02Nf2WpUcparCVRysJGLEg2WFggTKIe99W90/1m7v3uez9fzcbdfud9f+c573PO+cQ4fRonLv/Bbau87TlAL3AAeAWslfQ9A7S91LYXAn3AHmB
-                KTkmXpKdtB9teDpwBtgMTCkrXKell28C21wCngPUV7zRX0sd/BtvenAK7Io3RIelnS2DbE4GdwEmgMxIYwoYlTcvHR5nLdgewDzgOLKgBzELfS5oXDbY9EzgEHAFmRQDflS
-                T2QtKySrDt2bkenBEBDH16ATgBrCiIfyRpdSk47cHg0N3A1AjghyTmfKLyJnAfWFdy5q6kLYVg26uAB0nmkyKA34BLwICkYdtXgJ4m54YkhYEy8o2Yy3Z4y2sV0N/AjWRA9
-                Ev6FGJtH0ze/3rFuUFJx8rAk5OZuiOdPksKLroDnJb0NvvN9gbgHlRuuXOS+mPMtTE1SjDEw+BqSc/zB20HEz0Bpkc8TY+khmo27WPbiyW9GX1xunmeAQ292SSBXZJuVypu
-                psB2UBiUFrVN2dFNkoLrx5orolx/Q2wvTdbdRWBb7BmgW1JItnVwzliLgKPA3oh3bliJ4Y6oWZ0qfZz2bhgGziUQxup+4DAwv6QKDSuxLjiDhfE4ANyS9CuXQNhc4U9AqML
-                KUQk0rMRWwdmdYan3SRoqcH03EAbGVuC1pDFzoU6pR8qbqPqSqr6aTKSvZSazHXzwI//PI4utC/4MDAKXmwFj3F4HfLYdwNqKY1TUiYlWXOfSmNg/96C5HwBulRsAAAAASU
-                VORK5CYII="
+              GylEZKFILLDA5M/EkNAkC02Nf2WpUcparCVRysJGLEg2WFggTKIe99W90/1m7v3uez9fzcbdfud9f+c573PO+cQ4fRonLv/Bbau87TlAL3AAeAWslfQ9A7S91LYXAn3AHmB
+              KTkmXpKdtB9teDpwBtgMTCkrXKell28C21wCngPUV7zRX0sd/BtvenAK7Io3RIelnS2DbE4GdwEmgMxIYwoYlTcvHR5nLdgewDzgOLKgBzELfS5oXDbY9EzgEHAFmRQDflS
+              T2QtKySrDt2bkenBEBDH16ATgBrCiIfyRpdSk47cHg0N3A1AjghyTmfKLyJnAfWFdy5q6kLYVg26uAB0nmkyKA34BLwICkYdtXgJ4m54YkhYEy8o2Yy3Z4y2sV0N/AjWRA9
+              Ev6FGJtH0ze/3rFuUFJx8rAk5OZuiOdPksKLroDnJb0NvvN9gbgHlRuuXOS+mPMtTE1SjDEw+BqSc/zB20HEz0Bpkc8TY+khmo27WPbiyW9GX1xunmeAQ292SSBXZJuVypu
+              psB2UBiUFrVN2dFNkoLrx5orolx/Q2wvTdbdRWBb7BmgW1JItnVwzliLgKPA3oh3bliJ4Y6oWZ0qfZz2bhgGziUQxup+4DAwv6QKDSuxLjiDhfE4ANyS9CuXQNhc4U9AqML
+              KUQk0rMRWwdmdYan3SRoqcH03EAbGVuC1pDFzoU6pR8qbqPqSqr6aTKSvZSazHXzwI//PI4utC/4MDAKXmwFj3F4HfLYdwNqKY1TUiYlWXOfSmNg/96C5HwBulRsAAAAASU
+              VORK5CYII="
               />
             </button>
             <p>Theo dõi Teelab từ các nền tảng khác nhau nhé!</p>
@@ -253,5 +211,18 @@
         </div>
       </div>
     </form>
+    <script>
+      document
+        .getElementById("btnDK")
+        .addEventListener("click", function (event) {
+          var password = document.getElementById("MatKhau").value;
+          var confirmPassword = document.getElementById("ConfirmMatKhau").value;
+
+          if (password !== confirmPassword) {
+            alert("Mật khẩu và Nhập lại mật khẩu không trùng khớp");
+            event.preventDefault();
+          }
+        });
+    </script>
   </body>
 </html>

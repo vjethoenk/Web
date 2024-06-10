@@ -11,7 +11,7 @@ body {
   justify-content: space-between;
   height: 50px;
   position: relative;
-  width: 100%;
+  width: 95%;
 }
 .header-logo {
   flex: 1;
@@ -478,12 +478,12 @@ body {
   align-items: center;
 }
 .content-procduct {
-  width: 1150px;
+  width: 1190px;
   height: 660px;
   display: flex;
   background: white;
   border-radius: 7px;
-  margin: 17px 16px 16px 40px;
+  margin: 17px 16px 16px 20px;
   box-shadow: 2px 2px 20px rgba(148, 146, 146, 0.3);
   overflow-y: scroll;
   scrollbar-width: none;
@@ -756,12 +756,12 @@ body {
   margin-left: 60px;
 }
 /* .content-cart-demo table thead tr th {
-  font-size: 16px;
-  font-family: Futura, sans-serif;
-  height: 30px;
-  border-bottom: 2px solid black;
-  margin-left: -10px;
-} */
+    font-size: 16px;
+    font-family: Futura, sans-serif;
+    height: 30px;
+    border-bottom: 2px solid black;
+    margin-left: -10px;
+  } */
 .content-cart-demo table {
   margin-top: 20px;
 }
@@ -803,32 +803,14 @@ body {
   text-align: center;
   padding: 23px;
 }
-.styled-table {
-  width: 90%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  font-size: 0.9em;
-  font-family: sans-serif;
-  min-width: 400px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
 }
 
 .styled-table thead tr {
-  background-image: linear-gradient(
-    to right,
-    rgb(69, 67, 67),
-    rgb(142, 142, 142)
-  );
-  background-color: #009879;
+  background-color: #747776;
   color: #ffffff;
-  text-align: left;
-}
-
-.styled-table th,
-.styled-table td {
-  padding: 12px 13px;
-  text-align: center;
 }
 
 .styled-table tbody tr {
@@ -836,21 +818,20 @@ body {
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-  background-color: rgb(69, 67, 67);
+  background-color: #f3f3f3;
 }
 
 .styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid rgb(69, 67, 67);
+  border-bottom: 2px solid #babfbe;
 }
 
-.styled-table tbody tr.active-row {
-  font-weight: bold;
-  color: rgb(69, 67, 67);
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
 }
 
-.styled-table tbody img {
-  max-width: 50px;
-  max-height: 50px;
+.styled-table td img {
+  max-width: 100%;
+  height: auto;
 }
 
 .styled-table a {
@@ -861,12 +842,6 @@ body {
 
 .styled-table a:hover {
   text-decoration: underline;
-}
-.right-procduct-tool-img {
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
-  border: 1px solid black;
 }
 .content-pay {
   width: 300px;
